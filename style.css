@@ -1,0 +1,75 @@
+body {
+    background-color: lightgray;
+    font-family: Helvetica;
+}
+
+header {
+    background-color: white;
+    overflow: hidden;
+}
+
+header div {
+    /*background-color: orange;*/
+}
+
+img {
+    width: 600px;
+}
+
+h2 {
+    line-height: 57px;
+    margin: 0px;
+    font-size: 18px;
+}
+
+p {
+    margin: 16px 0px;
+}
+
+.centeredContainer {
+    margin: auto;
+    width: 600px;
+}
+
+.postContainer {
+    margin-top: 60px;
+    background-color: white;
+}
+
+.postHeaderContainer {
+    display: flex; /* set the parent up */
+}
+
+.postHeaderContainer div {
+    width: 50%; /* select every div in the child and make it 50% */
+}
+
+.postHeaderTitleContainer {
+    padding: 0px 14px;
+    /*text-align: right;*/
+    /*background-color: blue;*/
+}
+
+.postHeaderDateContainer {
+    text-align: right;
+    font-size: 15px;
+    line-height: 25px;
+    color: lightgray;
+    padding: 0px 14px;
+    /*background-color: red;*/
+}
+
+.postContentContainer
+{
+    line-height: 0;
+}
+
+.postCommentContainer {
+    font-weight: 100;
+    padding: 0px 24px;
+    overflow: hidden;
+}
+
+#mainContainer {
+    background-color: lightgray;
+}
