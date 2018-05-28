@@ -1,6 +1,7 @@
 body {
     background-color: lightgray;
     font-family: Helvetica;
+    margin: 0px;
 }
 
 header {
@@ -34,6 +35,7 @@ p {
 .postContainer {
     margin-top: 60px;
     background-color: white;
+    border-radius: 3px;
 }
 
 .postHeaderContainer {
