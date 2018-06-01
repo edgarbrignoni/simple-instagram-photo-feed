@@ -17,6 +17,10 @@ img {
     width: 600px;
 }
 
+h1 {
+    text-align: center;
+}
+
 h2 {
     line-height: 57px;
     margin: 0px;
